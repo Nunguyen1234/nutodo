@@ -38,7 +38,7 @@ const DestinationSlider = () => {
           <div key={data.id} className="m-3">
             {/* Images Div  */}
             <div className="relative h-[400px]">
-              <div className="absolute inset-0 bg-black opacity-25 rounded-lg"></div>
+              <div className="absolute inset-0 bg-black text-black opacity-25 rounded-lg"></div>
               {/* Images */}
               <Image
                 src={data.image}
@@ -49,7 +49,7 @@ const DestinationSlider = () => {
               />
               {/* Text Content */}
             </div>
-            <h1 className="text-lg font-semibold mt-4">{data.country}</h1>
+            <h1 className="text-lg font-semibold mt-4 text-black">{data.country}</h1>
             <p className="text-sm text-gray-600">{data.travelers} Travelers</p>
           </div>
         );

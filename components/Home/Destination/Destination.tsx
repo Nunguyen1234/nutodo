@@ -3,7 +3,7 @@ import SectionHeading from '../../Helper/SectionHeading';
 import DestinationSlider from './DestinationSlider';
 
 const Destination = () => {
-  return <div className='pt-20 bp-20'>
+  return <div className='pt-20 bp-20 bg-gray-100'>
     {/* Section Heading */}
     <SectionHeading heading='Exploring Popular Destination' />
     {/* Section Content */}
