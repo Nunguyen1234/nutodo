@@ -12,6 +12,6 @@ const Destination = () => {
       <DestinationSlider />
     </div>
   </div>
-};
+};  
 
 export default Destination

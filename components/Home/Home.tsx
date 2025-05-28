@@ -10,7 +10,7 @@ import Newsletter from './Newsletter/Newsletter';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
-const Home = () => {
+  const Home = () => {
   useEffect(() => {
     const initAOS = async() => {
       await import('aos');

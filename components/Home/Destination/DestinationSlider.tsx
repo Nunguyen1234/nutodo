@@ -35,13 +35,8 @@ const DestinationSlider = () => {
     >
       {destinationData.map((data) => {
         return (
-          <div
-            key={data.id}
-            className="m-3"
-            data-aos="fade-right"
-            data-aos-offset="300"
-            data-aos-easing="ease-in-sine"
-          >
+          <div key={data.id} className="m-3" 
+          data-aos="fade-up" data-aos-anchor-placement="top-center" data-aos-delay="150">
             {/* Images Div  */}
             <div className="relative h-[400px]">
               <div className="absolute inset-0 bg-black text-black opacity-25 rounded-lg"></div>
@@ -55,9 +50,7 @@ const DestinationSlider = () => {
               />
               {/* Text Content */}
             </div>
-            <h1 className="text-lg font-semibold mt-4 text-black">
-              {data.country}
-            </h1>
+            <h1 className="text-lg font-semibold mt-4 text-black">{data.country}</h1>
             <p className="text-sm text-gray-600">{data.travelers} Travelers</p>
           </div>
         );

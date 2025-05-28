@@ -5,7 +5,7 @@
 import ResponsiveNav from "../../components/Home/Navbar/ResponsiveNav";
 import Footer from "../../components/Home/Footer/Footer";
 import ScrollToTop from "../../components/Helper/ScrollToTop";
-
+import Image from "next/image";
   const font = Poppins({
     weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
     subsets: ["latin"],
@@ -38,6 +38,27 @@ import ScrollToTop from "../../components/Helper/ScrollToTop";
          {children}
          <Footer />
          <ScrollToTop />
+         <div
+          style={{
+            position: "fixed",
+            bottom: 80,
+            right: 20,
+            zIndex: 9999,
+            // background: "white",
+            padding: 10,
+            borderRadius: 12,
+            // boxShadow: "0 2px 8px rgba(0,0,0,0.15)",
+          }}
+        >
+          <Image
+            src="/images/QRNSVFamer.png"
+            width={100}
+            height={80}
+            alt="QR code"
+            style={{ display: "block" }}
+          />
+          
+        </div>
         </body>
       </html>
     );

@@ -11,18 +11,18 @@ type Props = {
     rating: number;
     reviews: string;
     price: string;
-  };
+  };  
 };
-const HotelCard = ({ hotel }: Props) => {
+const HotelCard = ({ hotel }: Props) => {   
   return (
     <div>
       <div className="relative h-[300px] w-full rounded-lg cursor-pointer group overflow-hidden">
         {/* add to fav button */}
         <div
           className="absolute top-4 right-4 z-20 w-8 h-8 bg-white rounded-full text-black flex items-center 
-        justify-center flex-col"
+        justify-center flex-col transition-colors duration-200 hover:bg-pink-100 group/fav cursor-pointer"
         >
-          <FaHeart className="w-3 h-3" />
+          <FaHeart className="w-3 h-3 text-pink-500 transition-colors duration-200 group-hover/fav:text-red-600"  />
         </div>
         {/* overlay */}
         <div className="absolute inset-0 bg-black opacity-20 z-10"></div>

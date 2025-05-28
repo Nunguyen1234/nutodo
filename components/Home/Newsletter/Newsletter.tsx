@@ -15,7 +15,7 @@ const Newsletter = () => {
       <div className="w-full">
         <input
           type="text"
-          className="px-6 py-3.5 text-black bg-white mt-8 w-[95%] sm:w-[80%] md:w-[60%] lg:w-[40%] block 
+          className="px-6 py-3.5 text-indigo-300 bg-white mt-8 w-[95%] sm:w-[80%] md:w-[60%] lg:w-[40%] block 
             mx-auto rounded-lg outline-none"
           placeholder="Email"
         />
