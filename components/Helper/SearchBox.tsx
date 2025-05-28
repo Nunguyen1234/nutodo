@@ -8,8 +8,8 @@ const SearchBox = () => {
       {/* 1st search input */}
       <div className="flex items-center space-x-6">
         <FaMap className="w-6 h-6 text-blue-600" />
-        <div>
-          <p className="text-lg font-medium mb-[0.2rem]">Location</p>
+        <div >
+          <p className="text-lg font-medium mb-[0.2rem] text-black">Location</p>
           <input
             type="text"
             placeholder="Where are you going?"
@@ -21,27 +21,30 @@ const SearchBox = () => {
       <div className="flex items-center space-x-6">
         <FaCalendarWeek className="w-6 h-6 text-blue-600" />
         <div>
-          <p className="text-lg font-medium mb-[0.2rem]">Start Date</p>
-          <input type="date" className="outline-none border-none" />
+          <p className="text-lg font-medium mb-[0.2rem] text-black">
+            Start Date
+          </p>
+          <input type="date" className="outline-none border-none text-black" />
         </div>
       </div>
       {/* 3rd search input */}
       <div className="flex items-center space-x-6">
         <FaCalendarWeek className="w-6 h-6 text-blue-600" />
         <div>
-          <p className="text-lg font-medium mb-[0.2rem]">End Date</p>
-          <input type="date" className="outline-none border-none" />
+          <p className="text-lg font-medium mb-[0.2rem] text-black">End Date</p>
+          <input type="date" className="outline-none border-none text-black" />
         </div>
       </div>
       {/* 4th search input */}
       <div className="flex items-center space-x-6">
         <FaUserGroup className="w-6 h-6 text-blue-600" />
         <div>
-            <p className="text-lg font-medium mb-[0.2rem]">Guest</p>
-            <p className="text-base font-normal">1 Guest 1 Room </p>
+          <p className="text-lg font-medium mb-[0.2rem] text-black">Guest</p>
+          <p className="text-base font-normal text-black">1 Guest 1 Room </p>
         </div>
       </div>
     </div>
+    
   );
 };
 
