@@ -8,7 +8,7 @@ const Review = () => {
       <div className="w-[80%] mx-auto grid items-center grid-cols-1 lg:grid-cols-2 gap-10">
         {/* TextContent */}
         <div>
-          <h1 className="text-2xl font-semibold text-white">
+          <h1 className="texta-2xl font-semibold text-white">
             what our customers are saying us?
           </h1>
           <p className="mt-6 text-gray-200">
