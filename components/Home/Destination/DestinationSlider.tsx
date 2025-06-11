@@ -10,17 +10,17 @@ const responsive = {
   desktop: {
     breakpoint: { max: 3000, min: 1324 },
     items: 5,
-    slidesToSlide: 1, // optional, default to 1.
+    slidesToSlide: 1,
   },
   tablet: {
     breakpoint: { max: 1324, min: 764 },
     items: 2,
-    slidesToSlide: 1, // optional, default to 1.
+    slidesToSlide: 1, 
   },
   mobile: {
     breakpoint: { max: 764, min: 0 },
     items: 1,
-    slidesToSlide: 1, // optional, default to 1.
+    slidesToSlide: 1, 
   },
 };
 
@@ -37,10 +37,8 @@ const DestinationSlider = () => {
         return (
           <div key={data.id} className="m-3" 
           data-aos="fade-up" data-aos-anchor-placement="top-center" data-aos-delay="150">
-            {/* Images Div  */}
             <div className="relative h-[400px]">
               <div className="absolute inset-0 bg-black text-black opacity-25 rounded-lg"></div>
-              {/* Images */}
               <Image
                 src={data.image}
                 alt={data.country}
@@ -48,7 +46,6 @@ const DestinationSlider = () => {
                 height={500}
                 className="h-full w-full object-cover rounded-lg"
               />
-              {/* Text Content */}
             </div>
             <h1 className="text-lg font-semibold mt-4 text-black">{data.country}</h1>
             <p className="text-sm text-gray-600">{data.travelers} Travelers</p>

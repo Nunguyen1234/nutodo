@@ -8,14 +8,12 @@ const Review = () => {
       <div className="w-[80%] mx-auto grid items-center grid-cols-1 lg:grid-cols-2 gap-10">
         {/* TextContent */}
         <div>
-          <h1 className="texta-2xl font-semibold text-white">
-            what our customers are saying us?
+          <h1 className="text-3xl font-semibold text-white">
+            What our customers are saying us?
           </h1>
           <p className="mt-6 text-gray-200">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis
-            illum eligendi debitis, enim, velit, perferendis eius sapiente non
-            explicabo recusandae dolor autem similique vel! Mollitia non
-            incidunt quaerat repellendus reiciendis?
+            Customer trust is our greatest reward. Every day, more people choose us for quality they can see and safety they can feel.
+
           </p>
           {/* Ratings */}
           <div className="mt-6 flex items-center space-x-6">

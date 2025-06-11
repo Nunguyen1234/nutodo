@@ -9,7 +9,6 @@ const Hero = () => {
       {/*overLay*/}
       <div className="absolute top-0 left-0 w-full h-full bg-gray-800 opacity-70"></div>
       {/* video */}
-
       <video
         src="/images/hero1.mp4"
         autoPlay
@@ -22,11 +21,13 @@ const Hero = () => {
       <div className="absolute z-[100] w-full h-full top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%]">
         <div className="flex items-center justify-center flex-col w-full h-full">
           <div data-aos="fade-up">
-            <h1 className="text-[25px] mb-10 md:mb-10 text-center md:text-[35px] lg:text-[45px] tracking-[0.7rem] text-white font-bold uppercase">
-              <WavyText>Let Enjoy The Nature</WavyText>
+            <h1 className="text-[20px] mb-10 md:mb-10 text-center md:text-[35px] lg:text-[45px] tracking-[0.7rem] text-white font-bold uppercase">
+              <WavyText>Grow With Trust
+
+</WavyText>
             </h1>
             <p className="md:text-base text-center text-lg text-white font-normal [word-spacing:5px]">
-              Get the best prices on 2,000,000+ properties, worldwide
+              Trace the origins of 2,000,000+ agricultural products – Safe, Trusted, Verified.
             </p>
           </div>
           {/* Search Box */}
@@ -43,6 +44,7 @@ const Hero = () => {
           </Link>
         </div>
       </div>
+      
     </div>
   );
 };

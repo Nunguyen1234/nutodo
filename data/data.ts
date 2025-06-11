@@ -139,58 +139,66 @@ export const toursData = [
 export const reviewData = [
   {
     id: 1,
-    name: "John Doe",
+    name: "Ms. Lan, Ho Chi Minh City",
+    reviewed: "User1",
     review:
-      "The service exceeded my expectations. The team was professional, and I couldn't be happier with the results. Highly recommended to everyone!",
-    image: "/images/u1.jpg",
+      "The vegetables here are always fresh and clearly sourced. I feel confident buying for my family every day.",
+    image: "/images/u1.png",
   },
   {
     id: 2,
-    name: "Jane Smith",
+    name: "Mr. Minh, Dong Thap",
+    reviewed: "User2",
     review:
-      "I am thoroughly impressed with the attention to detail and quality. They truly understand customer needs and deliver outstanding results. Wonderful experience!",
-    image: "/images/u2.jpg",
+      "Professional service, fast delivery, and reasonable prices. I’ll definitely keep supporting!",
+    image: "/images/u2.png",
   },
   {
     id: 3,
-    name: "Michael Brown",
+    name: "Mrs. Hoa, Can Tho",
+    reviewed: "User3",
     review:
-      "Exceptional quality and fantastic customer service! The project was delivered on time and exactly as I wanted. I will definitely use their services again.",
-    image: "/images/u3.jpg",
+      "My first time buying farm produce online and I’m really satisfied. Clean products, carefully packed, exactly as described.",
+    image: "/images/u3.png",
   },
   {
     id: 4,
-    name: "Emily Davis",
+    name: " Ms. Hanh, Da Nang",
+    reviewed: "User4",
     review:
-      "Outstanding results! The team was efficient, and their professionalism was remarkable. Everything was done perfectly. I highly recommend their expertise to everyone.",
-    image: "/images/u1.jpg",
+      "Great quality! The veggies are crisp, not wilted. On-time delivery and friendly support." ,
+    image: "/images/u4.png",
   },
   {
     id: 5,
-    name: "Chris Wilson",
+    name: "Mr. Tung, Hanoi",
+    reviewed: "User5",
     review:
-      "Amazing service! They exceeded all expectations and delivered a product that I am extremely happy with. The communication throughout the project was excellent.",
-    image: "/images/u2.jpg",
+      "I really appreciate the transparent traceability. Each product includes clear, verifiable information.",
+    image: "/images/u5.png",
   },
   {
     id: 6,
-    name: "Sarah Johnson",
+    name: " Ms. Nga, Ben Tre",
+    reviewed: "User6",
     review:
-      "Fantastic experience! They listened carefully to my requirements and delivered exactly what I needed. Their attention to detail is truly commendable.",
-    image: "/images/u3.jpg",
+      "I'm impressed by the careful packaging and excellent customer service. I’ll recommend this to my family!",
+    image: "/images/u6.png",
   },
   {
     id: 7,
-    name: "David Lee",
+    name: "Ms. Tram, Binh Duong",
+    reviewed: "User7",
     review:
-      "Absolutely incredible service! The team was supportive and responsive, making sure everything was perfect. I will definitely recommend them to my friends.",
-    image: "/images/u1.jpg",
+      "The vegetables are carefully selected, naturally fresh in taste. My whole family is happy with the quality." ,
+    image: "/images/u7.png",
   },
   {
     id: 8,
-    name: "Sophia White",
+    name: "Mr. Khoa, Nha Trang",
+    reviewed: "User8",
     review:
-      "Five-star service from start to finish! The dedication and skill of the team made all the difference. Truly an exceptional experience I won’t forget.",
-    image: "/images/u2.jpg",
+     "Easy ordering, fast shipping, and the products meet expectations. A trustworthy service." ,
+    image: "/images/u2.png",
   },
 ];

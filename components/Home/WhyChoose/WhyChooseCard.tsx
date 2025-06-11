@@ -1,30 +1,19 @@
 import React from "react";
-import Image from "next/image";
+import Image from 'next/image'
 
-type Props = {
+type WhyChooseCardProps = {
   image: string;
   title: string;
 };
-const WhyChooseCard = ({ image, title }: Props) => {
+
+const WhyChooseCard: React.FC<WhyChooseCardProps> = ({ image, title }) => {
   return (
-    <div>
-      <Image
-        src={image}
-        width={70}
-        height={70}
-        alt="image"
-        className="mx-auto"
-      />
-      {/* Content */}
-      <h1 className="mt-6 text-center text-gray-900 font-medium text-lg">
-        {title}
-        </h1>
-      <p className="mt-2 text-center text-xs font-medium text-gray-700">
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
-        Quisquam quas in minima aperiam et, non ducimus maiores quos, molestias iste dolores neque? Quo id sapiente quaerat, aliquid suscipit temporibus consectetur.
-      </p>
+    <div className="flex flex-col items-center text-center">
+      <Image src={image} alt={title} width={80} height={80} className="mb-4" />
+      <h3 className="text-lg font-semibold">{title}</h3>
     </div>
   );
 };
 
 export default WhyChooseCard;
+
