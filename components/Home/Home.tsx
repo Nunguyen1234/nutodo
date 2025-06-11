@@ -66,7 +66,7 @@ const Home = () => {
           ) : (
             <Login
               onLoginSuccess={handleLoginSuccess}
-              setShowRegister={() => setShowRegister(true)}
+              setShowRegister={() => setShowRegister(true)}   
             />
           )}
         </div>
