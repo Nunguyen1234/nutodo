@@ -2,6 +2,9 @@
 import React, { useEffect, useState } from "react";
 import { FaArrowUp } from "react-icons/fa";
 
+const FaArrowUpIcon = FaArrowUp as unknown as React.FC;
+
+
 const ScrollToTop = () => {
   const [isVisible, setIsVisible] = useState(false);
 
@@ -30,7 +33,7 @@ const ScrollToTop = () => {
           className="bg-rose-700 text-white rounded-full w-12 h-12 flex items-center 
     justify-center focus:outline-none"
         >
-          <FaArrowUp />
+          <FaArrowUpIcon  />
         </button>
       )}
     </div>
