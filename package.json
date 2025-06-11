@@ -12,6 +12,7 @@
     "@fortawesome/react-fontawesome": "^0.2.2",
     "@mui/icons-material": "^7.1.1",
     "@mui/material": "^7.1.1",
+    "@netlify/next": "^1.4.9",
     "@types/node": "^16.18.0",
     "aos": "^3.0.0-beta.6",
     "axios": "^1.9.0",
