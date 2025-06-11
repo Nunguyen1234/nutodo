@@ -16,7 +16,7 @@ import { faArrowRightToBracket, faUser, faPhone, faLock } from "@fortawesome/fre
 const registerApiCall = async (
   email: string | null,
   password: string,
-  phone: string | null
+  phone: string | null  
 ) => {
   const payload: {
     email?: string;
