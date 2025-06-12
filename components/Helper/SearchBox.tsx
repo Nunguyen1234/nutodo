@@ -1,5 +1,5 @@
 import React from "react";
-import { FaCalendarWeek, FaMap } from "react-icons/fa";
+import { FaCalendarWeek } from "react-icons/fa";
 import { FaUserGroup } from "react-icons/fa6";
 import { FaMapMarkerAlt } from "react-icons/fa";
 
